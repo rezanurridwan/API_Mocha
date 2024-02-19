@@ -1,0 +1,22 @@
+{
+  "name": "api_mocha",
+  "version": "1.0.0",
+  "description": "for task",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "suites:all": "npx mocha --reporter mochawesome KasirAja/allmodules.js"
+  },
+  "author": "rezanurridwan",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.0",
+    "jsonschema": "^1.4.1",
+    "mocha": "^10.3.0",
+    "supertest": "^6.3.4"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}

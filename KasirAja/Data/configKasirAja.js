@@ -1,0 +1,1 @@
+export const baseUrlKasirAja = "https://kasir-api.belajarqa.com"
